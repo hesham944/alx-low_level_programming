@@ -3,18 +3,16 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
- */
-	int main(void)
+ * Return: Always 0 (Success)
+*/
+
+int  main(void)
 {
-	int a;
 
-
-
-
-
-
-
-
+	printf("size of a char = %d\n", sizeof(char));
+	printf("size of an int = %d\n", sizeof(int));
+	printf("size of a long int = %d\n", sizeof(long int));
+	printf("size of a unsigned long long int = %d\n", sizeof(long long int));
+	printf("size of float = %d\n", sizeof(float));
 
 }
