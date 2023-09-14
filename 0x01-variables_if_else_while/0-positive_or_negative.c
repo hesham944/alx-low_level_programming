@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * main - assign a random numer to int everytime it execute
+ *
  * Retun: Always 0 (success)
  */
 int main(void)
@@ -16,6 +17,6 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
-		printf"(%d is negative\n", n);
-	retun(0);
+		printf("%d is negative\n", n);
+	return (0);
 }
