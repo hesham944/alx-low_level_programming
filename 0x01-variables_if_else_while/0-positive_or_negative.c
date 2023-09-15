@@ -3,10 +3,12 @@
 #include <stdio.h>
 /**
  * main - assign a random numer to int everytime it execute
+ * Return: Always  (success)
  *
- * Retun: Always 0 (success)
  */
+
 int main(void)
+
 {
 	int n;
 
